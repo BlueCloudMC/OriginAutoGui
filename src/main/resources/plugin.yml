@@ -1,0 +1,6 @@
+name: OriginAutoGui
+version: '${version}'
+main: com.bluecloud.originautogui.OriginAutoGui
+depend:
+  - HeadDatabase
+api-version: 1.17
