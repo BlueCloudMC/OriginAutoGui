@@ -36,7 +36,7 @@ public class GuiCommands extends BaseCommand {
     public void onDmCreate(@NotNull Player player,
                            @Single @NotNull String path,
                            @Optional @Single @Nullable String title,
-                           @Optional @Nullable String flags) throws IOException {
+                           @Optional @Nullable String flags) {
 
         Block targetBlock = player.getTargetBlock(6);
 
