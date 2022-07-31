@@ -31,7 +31,8 @@ public final class OriginAutoGui extends JavaPlugin {
 
         commandManager = new PaperCommandManager(this);
 
-        commandManager.getCommandCompletions().registerCompletion("flags", ctx -> List.of("--overwrite"));
+        commandManager.getCommandCompletions().registerCompletion("flags", ctx ->
+                List.of("--overwrite", "--enable-now", "--update-config", "--reload-plugin", "--open"));
 
         commandManager.registerCommand(new GuiCommands(this));
 
