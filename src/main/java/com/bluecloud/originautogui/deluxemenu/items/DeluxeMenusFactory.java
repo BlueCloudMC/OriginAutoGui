@@ -35,7 +35,7 @@ public class DeluxeMenusFactory implements GuiFactory, AutoCloseable {
         this.configuration = dmConfiguration;
 
         configuration.set("menu_title", title);
-        configuration.set("open_commands", new ArrayList<>());
+        configuration.set("open_command", new ArrayList<>());
     }
 
     @Override
